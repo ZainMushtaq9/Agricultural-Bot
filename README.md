@@ -1,14 +1,13 @@
-# 🌾 Agricultural Bot
+# 🌾 Zarai Dost — Agricultural Chatbot
 
-An intelligent **Streamlit-powered chatbot** designed to assist farmers, students, and researchers with **agriculture-related queries** — from crop health and soil management to fertilizer recommendations.  
-This project uses **Natural Language Processing (NLP)** and **AI models** to provide fast, reliable agricultural insights in a user-friendly interface.
+**Zarai Dost** is an intelligent **AI-powered agricultural assistant** built using **Streamlit** and **Groq’s LLaMA 3.3 model**.  
+It provides **locally relevant farming advice** for Pakistani farmers — covering **crops, soil health, pest control, irrigation, and weather insights**.
 
 ---
 
 ## 🖼️ Screenshot
 
-### 🌱 App Interface
-![Agricultural Bot Screenshot](agri.jpg)
+![Zarai Dost Interface](agri.jpg)
 
 > 📸 The screenshot file `agri.jpg` is located in the same folder as this README file.
 
@@ -16,35 +15,33 @@ This project uses **Natural Language Processing (NLP)** and **AI models** to pro
 
 ## 🚀 Live Demo
 
-Try it instantly online via Streamlit Cloud:  
-👉 **[Agricultural Bot — Live App](https://agricultural-bot.streamlit.app/)**
+👉 **[Try Live App — Zarai Dost](https://agricultural-bot.streamlit.app/)**
 
 ---
 
 ## 🧩 Features
 
-✅ AI-based chatbot for **agricultural questions**  
-✅ Provides **crop, fertilizer, and pest control** information  
-✅ Easy-to-use **web interface** built with Streamlit  
-✅ Works on **desktop and mobile browsers**  
-✅ Can be extended for **image-based plant disease detection**  
-✅ Lightweight and ready to deploy  
+✅ AI chatbot specialized in **Pakistani agriculture**  
+✅ Understands **local crops, climate, and soil conditions**  
+✅ Built with **Groq’s LLaMA-3.3-70B-Versatile model**  
+✅ **Chat memory** for continuous conversation  
+✅ Works on **Streamlit Cloud** or local setup  
+✅ Secure key handling via `st.secrets`  
 
 ---
 
 ## 🧠 Tech Stack
 
 - **Python 3.10+**  
-- **Streamlit** — frontend and UI  
-- **Hugging Face Transformers / NLP Models** — chatbot responses  
-- **Requests & JSON** — for data handling  
-- **Pandas** — optional structured data analysis  
+- **Streamlit** — interactive UI  
+- **Groq Python SDK** — LLM API integration  
+- **LLaMA 3.3-70B Versatile Model**  
 
 ---
 
 ## ⚙️ Run Locally
 
-You can run the Agricultural Bot locally by following these steps 👇
+You can run this project locally by following these steps 👇
 
 ### 1️⃣ Clone the Repository
 
